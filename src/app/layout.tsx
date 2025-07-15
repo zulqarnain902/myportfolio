@@ -25,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning defaultValue="dark">
-      <body
-      // className={`${geistSans.variable} ${geistMono.variable} bg-white dark:bg-black`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Providers>
           <div className="mb-20">
             <Navbar />
