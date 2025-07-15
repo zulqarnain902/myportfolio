@@ -94,18 +94,16 @@ export default function HomeCom() {
           transition={{ delay: 1 }}
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
-          {["React", "Next.js", "TypeScript", "Tailwind CSS"].map(
-            (skill, i) => (
-              <motion.div
-                key={skill}
-                whileHover={{ y: -5 }}
-                className="border border-gray-400  p-4 rounded-xl text-center shadow-[0_0_12px_rgba(59,130,246,0.5)]"
-              >
-                <div className="text-2xl mb-2">✨</div>
-                <h3 className="font-medium">{skill}</h3>
-              </motion.div>
-            )
-          )}
+          {["React", "Next.js", "TypeScript", "Tailwind CSS"].map((skill) => (
+            <motion.div
+              key={skill}
+              whileHover={{ y: -5 }}
+              className="border border-gray-400  p-4 rounded-xl text-center shadow-[0_0_12px_rgba(59,130,246,0.5)]"
+            >
+              <div className="text-2xl mb-2">✨</div>
+              <h3 className="font-medium">{skill}</h3>
+            </motion.div>
+          ))}
         </motion.div>
       </motion.div>
     </div>
