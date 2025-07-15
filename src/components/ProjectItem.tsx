@@ -9,11 +9,7 @@ interface ProjectProps {
   totalProjects?: number;
 }
 
-const ProjectItem = ({
-  project,
-  index = 0,
-  totalProjects = 0,
-}: ProjectProps) => {
+const ProjectItem = ({ project, index = 0 }: ProjectProps) => {
   // Staggered animation delay based on index
   const animationDelay = index * 0.1;
 
