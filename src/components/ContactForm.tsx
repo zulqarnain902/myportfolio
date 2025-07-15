@@ -51,7 +51,7 @@ export default function ContactForm() {
     >
       <div className=" p-6 md:p-8">
         <h2 className="text-xl md:text-2xl font-bold text-center mb-2">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
         <p className="text-center text-sm mb-8">
           Have a project in mind or want to collaborate? Send me a message.
