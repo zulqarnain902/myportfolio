@@ -42,7 +42,7 @@ const ProjectItem = ({ project, index = 0 }: ProjectProps) => {
 
       {/* Hover Overlay Content */}
       <div
-        className="hidden group-hover:flex flex-col items-center justify-center absolute inset-0 text-center 
+        className="flex flex-col items-center justify-center absolute inset-0 text-center 
                  bg-black/40 dark:bg-black/50 
                 border border-white/10 dark:border-white/20
                 shadow-lg shadow-black/30 dark:shadow-black/50
