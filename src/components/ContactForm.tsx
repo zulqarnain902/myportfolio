@@ -27,6 +27,8 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data: FormData) => {
+    console.log(data);
+
     try {
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -34,6 +36,8 @@ export default function ContactForm() {
       toast.success("Message sent successfully!");
       reset();
     } catch (error) {
+      console.log(error);
+
       toast.error("Failed to send message. Please try again.");
     }
   };
