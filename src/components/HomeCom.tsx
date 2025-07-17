@@ -23,7 +23,7 @@ export default function HomeCom() {
               transition={{ delay: 0.2 }}
               className="text-3xl md:text-4xl font-bold  mb-2"
             >
-              Afzaal Suleman
+              Zulqarnain khan
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -31,7 +31,7 @@ export default function HomeCom() {
               transition={{ delay: 0.4 }}
               className="text-lg text-primary dark:text-primary-400 mb-4"
             >
-              Fullstack Developer
+              Full stack Developer
             </motion.p>
             <motion.p
               initial={{ opacity: 0 }}
@@ -77,7 +77,7 @@ export default function HomeCom() {
             className="relative h-48 w-48 md:h-56 md:w-56 rounded-full border-4 border-white shadow-lg overflow-hidden"
           >
             <Image
-              src="/profile.png" // Replace with your image path
+              src="/profile.jpg" // Replace with your image path
               alt="Profile Picture"
               fill
               className="object-cover"

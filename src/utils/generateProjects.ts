@@ -47,7 +47,7 @@ export const generateRandomProjects = (count: number): Project[] => {
     type: projectTypes[Math.floor(Math.random() * projectTypes.length)] || "Web Project",
     img: getRandomImage(),
     link: "https://example.com",
-    github: Math.random() > 0.3 ? "https://github.com/Afzaal-Suleman" : undefined,
+    github: Math.random() > 0.3 ? "https://github.com/zulqarnain902" : undefined,
     technologies: getRandomItems(technologies, Math.floor(Math.random() * 5) + 2),
     description: `This project demonstrates my skills in ${getRandomItems(technologies, 2).join(" and ")}. It includes features like user authentication, responsive design, and API integration.`
   }));
