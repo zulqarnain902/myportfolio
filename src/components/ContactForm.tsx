@@ -179,14 +179,14 @@ export default function ContactForm() {
               {
                 name: "GitHub",
                 icon: "github",
-                url: "https://github.com/Afzaal-Suleman",
+                url: "https://github.com/zulqarnain902",
               },
               {
                 name: "LinkedIn",
                 icon: "linkedin",
-                url: "https://www.linkedin.com/in/afzaal-suleman-3ab899298",
+                url: "https://www.linkedin.com/in/zulqarnain-khan-b35017189",
               },
-              { name: "Twitter", icon: "twitter", url: "#" },
+              { name: "Twitter", icon: "twitter", url: "https://x.com" },
             ].map((social) => (
               <motion.a
                 key={social.name}

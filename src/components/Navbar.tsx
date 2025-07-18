@@ -11,7 +11,7 @@ export default function Navbar() {
     { path: "/projects", name: "Projects" },
     { path: "/contact", name: "Contact" },
   ];
-
+  
   return (
     <div className="fixed top-0 z-40 w-full   px-4 py-3 backdrop-blur-2xl">
       <div className="flex justify-center items-center w-full space-x-1 sm:space-x-6">
